@@ -15,41 +15,10 @@
     <h1 id="show-modal">Add Bookmark</h1>
     <!-- Bookmarks -->
     <div class="bookmarks-container" id="bookmarks-container">
-        <div class="item">
-            <i id="delete-bookmark" title="delete" class="fas fa-times-circle"></i>
-            <div class="name">
-                <img src="https://s2.googleusercontent.com/s2/favicons?domain=www.google.com" alt="">
-                <a href="https://s2.googleusercontent.com/s2/favicons?domain=www.google.com"
-                    target="_blank">suhrid-talukder333</a>
-            </div>
-        </div>
-        <div class="item">
-            <i id="delete-bookmark" title="delete" class="fas fa-times-circle"></i>
-            <div class="name">
-                <img src="https://s2.googleusercontent.com/s2/favicons?domain=www.google.com" alt="">
-                <a href="https://s2.googleusercontent.com/s2/favicons?domain=www.google.com"
-                    target="_blank">suhrid-talukder333</a>
-            </div>
-        </div>
-        <div class="item">
-            <i id="delete-bookmark" title="delete" class="fas fa-times-circle"></i>
-            <div class="name">
-                <img src="https://s2.googleusercontent.com/s2/favicons?domain=www.google.com" alt="">
-                <a href="https://s2.googleusercontent.com/s2/favicons?domain=www.google.com"
-                    target="_blank">suhrid-talukder333</a>
-            </div>
-        </div>
-        <div class="item">
-            <i id="delete-bookmark" title="delete" class="fas fa-times-circle"></i>
-            <div class="name">
-                <img src="https://s2.googleusercontent.com/s2/favicons?domain=www.google.com" alt="">
-                <a href="https://s2.googleusercontent.com/s2/favicons?domain=www.google.com"
-                    target="_blank">suhrid-talukder333</a>
-            </div>
-        </div>
+
     </div>
     <!-- Modal -->
-    <div class="modal-container show-modal" id="modal">
+    <div class="modal-container" id="modal">
         <div class="modal">
             <i class="fas fa-times-circle close-icon" id="close-modal"></i>
             <div class="modal-header">
@@ -59,11 +28,11 @@
                 <form id="bookmark-form" action="">
                     <div class="form-group">
                         <label class="form-label" for="website-name">Website Name</label>
-                        <input id="website-name" type="text" class="form-input">
+                        <input id="website-name" type="text" class="form-input" required>
                     </div>
                     <div class="form-group">
                         <label class="form-label" for="website-url">Website URL</label>
-                        <input id="website-url" type="text" class="form-input">
+                        <input id="website-url" type="text" class="form-input" required>
                     </div>
                     <button type="submit">Save</button>
                 </form>
