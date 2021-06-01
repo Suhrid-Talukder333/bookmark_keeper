@@ -53,7 +53,7 @@ const storeBookmark = (event) => {
   }
   const bookmark = {
     name: websiteName.value,
-    url: websiteUrl.value,
+    url: url,
   };
   bookmarks.push(bookmark);
   localStorage.setItem("bookmarks", JSON.stringify(bookmarks));
@@ -113,7 +113,7 @@ const fetchBookmarks = () => {
     bookmarks = [
       {
         name: "Your Bookmark",
-        url: "http://127.0.0.1:5500/index.html",
+        url: "https://bookmarkeeper.netlify.app/",
       },
     ];
     localStorage.setItem("bookmarks", JSON.stringify(bookmarks));
