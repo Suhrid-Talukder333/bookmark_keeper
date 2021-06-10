@@ -1,6 +1,6 @@
 <h1>Bookmark keeper</h1>
 <div>
-  <img src="" />
+  <img src="https://media.giphy.com/media/s7KanHWK7PWdlJup4U/giphy.gif" />
 </div>
 </br></br>
 <p>You can store your bookmars and it stays in the local storage of the browser. So when ever you comeback the bookmarks are still there.
